@@ -12,7 +12,7 @@
 	<key>Library Persistent ID</key><string>5E7B8CC1F12D8073</string>
 	<key>Tracks</key>
 	<dict>
-		<key>3082</key>
+		<key>3083</key>
 		<dict>
 			<key>Track ID</key><integer>3083</integer>
 			<key>Name</key><string>Don't Know Why</string>
@@ -102,6 +102,37 @@
 			<key>Persistent ID</key><string>1B90E5159B1ACEEC</string>
 			<key>Track Type</key><string>File</string>
 			<key>Location</key><string>file://localhost/Users/mahesh/Music/iTunes/iTunes%20Music/Norah%20Jones/Come%20Away%20With%20Me/02%20Seven%20Years.m4a</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>3081</key>
+		<dict>
+			<key>Track ID</key><integer>3087</integer>
+			<key>Name</key><string>Cold Cold Heart</string>
+			<key>Artist</key><string>Norah Jones</string>
+			<key>Composer</key><string>Hank Williams</string>
+			<key>Album</key><string>Come Away With Me</string>
+			<key>Genre</key><string>Pop</string>
+			<key>Kind</key><string>AAC audio file</string>
+			<key>Size</key><integer>5321333</integer>
+			<key>Total Time</key><integer>218637</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>3</integer>
+			<key>Track Count</key><integer>14</integer>
+			<key>Year</key><integer>2002</integer>
+			<key>Date Modified</key><date>2006-08-07T05:24:28Z</date>
+			<key>Date Added</key><date>2009-10-03T14:55:11Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>1</integer>
+			<key>Play Date</key><integer>3381677390</integer>
+			<key>Play Date UTC</key><date>2011-02-27T13:19:50Z</date>
+			<key>Normalization</key><integer>1060</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>654C01ACECA3323E</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/Users/mahesh/Music/iTunes/iTunes%20Music/Norah%20Jones/Come%20Away%20With%20Me/03%20Cold%20Cold%20Heart.m4a</string>
 			<key>File Folder Count</key><integer>4</integer>
 			<key>Library Folder Count</key><integer>1</integer>
 		</dict>
@@ -2909,6 +2940,40 @@
 			<key>Library Folder Count</key><integer>1</integer>
 		</dict>
 		<key>8453</key>
+		<dict>
+			<key>Track ID</key><integer>8453</integer>
+			<key>Name</key><string>PPA</string>
+			<key>Artist</key><string>Rodrigo Y Gabriela</string>
+			<key>Album Artist</key><string>Rodrigo y Gabriela</string>
+			<key>Composer</key><string>Rodrigo Y Gabriela</string>
+			<key>Album</key><string>Rodrigo Y Gabriela</string>
+			<key>Genre</key><string>Jazz</string>
+			<key>Kind</key><string>AAC audio file</string>
+			<key>Size</key><integer>6589124</integer>
+			<key>Total Time</key><integer>252346</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>9</integer>
+			<key>Track Count</key><integer>9</integer>
+			<key>Year</key><integer>2006</integer>
+			<key>Date Modified</key><date>2011-06-21T02:13:24Z</date>
+			<key>Date Added</key><date>2011-06-21T02:23:42Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>2</integer>
+			<key>Play Date</key><integer>3427389410</integer>
+			<key>Play Date UTC</key><date>2012-08-09T15:06:50Z</date>
+			<key>Skip Count</key><integer>3</integer>
+			<key>Skip Date</key><date>2011-10-27T10:55:51Z</date>
+			<key>Normalization</key><integer>3555</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>7A0D0B0D474CFD59</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/Users/mahesh/Music/iTunes/iTunes%20Music/Rodrigo%20y%20Gabriela/Rodrigo%20Y%20Gabriela/09%20PPA.m4a</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+				<key>8454</key>
 		<dict>
 			<key>Track ID</key><integer>8453</integer>
 			<key>Name</key><string>PPA</string>

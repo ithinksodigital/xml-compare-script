@@ -1,11 +1,54 @@
 import plistlib
 
+def findCommonTracks(fileNames):
+    """
+    Wyszukiwanie wspólnych utworów w danych plikach list odtwarzania 
+    i zapisywanie ich w pliku common.txt.
+    """    
+    # lista zbiorów nazw utworów
+    trackNameSets = []
+    for fileName in fileNames:
+        # tworzenie nowego zbioru
+        trackNames = set()
+        # wczytywanie listy odtwarzania
+        plist = plistlib.readPlist(fileName)
+        # pobieranie utworów
+        tracks = plist['Tracks']
+        # iterowanie przez utwory
+        for trackId, track in tracks.items():
+            try:
+                # dodawanie nazwy do zbioru
+                trackNames.add(track['Name'])
+            except:
+                # ignorowanie
+                pass
+        # dodawanie do listy
+        trackNameSets.append(trackNames)    
+    # pobieranie zbioru wspólnych utworów
+    commonTracks = set.intersection(*trackNameSets)
+    # zapisywanie w pliku
+    if len(commonTracks) > 0:
+        f = open("common.txt", 'wb')
+        for val in commonTracks:
+            s = "%s\n" % val
+            f.write(s.encode("UTF-8"))
+        f.close()
+        print("Znaleziono wspólnych utworów %d. "
+              "Nazwy utworów zostaly zapisane w pliku common.txt." % len(commonTracks))
+    else:
+        print("Nie ma żadnych wspólnych utworów!")
+
+
+
+
+
 def findDuplicates(fileName):
     print('Wyszukiwanie zduplikowanych utworów w %s...' % fileName)
     #load playsit
     plist = plistlib.readPlist(fileName)
     tracks = plist['Tracks']
     trackNames = {}
+
 
     for trackId, track in tracks.items():
         try:
@@ -20,8 +63,6 @@ def findDuplicates(fileName):
                 trackNames[name] = (duration, 1)
         except:
             pass
-
-
 
     dups = []
     for k, v in trackNames.items():
@@ -38,6 +79,10 @@ def findDuplicates(fileName):
         f.write("[%d] %s\n" % (val[0], val[1]))
     f.close()
 
-pldir = input("Wprowadz adres pliku: ")
+# pldir = input("Wprowadz adres pliku: ")
+# findDuplicates(pldir)
 
-findDuplicates(pldir)
+
+lists = ['test-data/pl1.xml', 'test-data/pl2.xml']
+
+findCommonTracks(lists)
